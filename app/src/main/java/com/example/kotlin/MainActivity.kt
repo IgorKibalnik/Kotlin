@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     }
     val MIN = 1
-    val MAX = 100
+    val MAX = 10
 
     private fun getRandomValue(minValue: Int, maxValue: Int): Int {
-        return Random.nextInt(maxValue, minValue)
+        return Random.nextInt(minValue, maxValue)
     }
 }
